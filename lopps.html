@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+JavaScript Break statement
+</title>
+</head>
+<body style="text-align:center;">
+<div>
+    <h1>DevopsForDevops</h1>
+<h2>JavaScript Break</h2>
+</div>
+<p id="GFG"></p>
+<script>
+var content = "";
+var i;
+for (i = 1; i < 1000; i++) {
+if (i === 6) {
+ 
+    break;
+}
+content += "Devops" + i + "<br>";
+}
+document.getElementById("GFG").innerHTML = content;
+</script>
+</body>
+</html>
+ Continue statement: The continue statement “jumps over” one iteration in the loop. It breaks iteration in the loop and continues executing the next iteration in the loop.
+
+ Example:
+   <!DOCTYPE html>
+<html>
+<head>
+<title>
+            JavaScript continue statement
+</title>
+</head>
+<body style="text-align:center;">
+ 
+    <div>
+    <h1>DevopsForDevops</h1>
+    <h2>JavaScript continue</h2>
+</div>
+<p id="GFG"></p>
+<script>
+    var content = "";
+var i;
+    for (i = 1; i < 7; i++) {
+ 
+if (i === 4) {
+continue;
+}
+                content += "Devops" + i + "<br>";
+}
+            document.getElementById("GFG").innerHTML = content;
+</script>
+</center>
+</body>
+</html>
